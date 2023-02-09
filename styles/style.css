@@ -14,6 +14,16 @@
   justify-content: space-between;
   position: relative;
   background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(15deg);
+  }
+  to {
+    transform: rotate(375deg);
+  }
 }
 
 .header__square {
@@ -24,6 +34,8 @@
   right: 0;
   margin-top: 64px;
   order: 0;
+  transform: rotate(150deg);
+  animation: rotation 20s infinite linear;
 }
 
 .header__logo {
@@ -117,7 +129,7 @@
 .section {
   width: 60%;
   text-align: center;
-  margin: 0 auto;
+  margin: 100px auto auto auto;
 }
 
 .section-title {
@@ -131,6 +143,51 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+
+.cards{
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin:  auto;
+  padding: 0;
+}
+
+.cards__item{
+  margin-top: 60px;
+  width: 240px;
+  list-style: none;
+}
+
+.cards__image{
+  padding: 0 40px 43px 40px;
+  width: 160px;
+  height: 160px;
+
+}
+
+.cards__title{
+  padding-bottom: 16px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cards__description{
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.video__iframes{
+  margin: 50px auto 0 auto;
+  width: 1050px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .table {
@@ -171,6 +228,63 @@
 
 .detail {
   margin: 0;
+}
+
+.khan{
+  width: 80%;
+  margin: auto;
+}
+
+.khan__author{
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote{
+  width: 790px;
+  margin: 50px auto 36px 0px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author{
+  margin: 0 auto 10px 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline{
+  margin: 0 auto 68px 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container{
+  display: flex;
+}
+
+.khan__book-pic{
+  width: 620px;
+  height: 608px;
+  margin: 0;
+}
+
+.khan__buy-link{
+  margin-left: 48ox;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 .feynman {
@@ -285,6 +399,15 @@
   font-weight: normal;
 }
 
+@keyframes rotation-triangle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .kaufman__triangle {
   position: absolute;
   right: -124px;
@@ -292,6 +415,22 @@
   z-index: 1;
   width: 660px;
   height: 636px;
+  animation: rotation-triangle 20s infinite linear;
+}
+
+.resources{
+  margin: auto;
+}
+
+.resources__logo-zone{
+  width: 1100px;
+  display: flex;
+  margin: 80px auto 217px auto;
+}
+
+.resources__logo{
+  width: 270px;
+  height: 38px;
 }
 
 .footer {
