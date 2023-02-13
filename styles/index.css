@@ -45,7 +45,7 @@
 @import url(../blocks/feynman/__link/feynman__link.css);
 @import url(../blocks/feynman/__image/feynman__image.css);
 @import url(../blocks/kaufman/kaufman.css);
-@import url(../blocks/section-title/__theme/_dark/section-title__theme_dark.css);
+@import url(../blocks/section-title/_theme/_dark/section-title_theme_dark.css);
 @import url(../blocks/section-subtitle/__theme/_dark/section-subtitle__theme_dark.css);
 @import url(../blocks/table/__theme/_dark/table__theme_dark.css);
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
