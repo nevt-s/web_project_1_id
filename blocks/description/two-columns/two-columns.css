@@ -2,6 +2,6 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin: 100px auto;
+  margin: 0 auto ;
   min-height: 10vh;
 }
