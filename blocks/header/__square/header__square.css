@@ -1,13 +1,3 @@
-
-@keyframes rotation {
-  from {
-    transform: rotate(-15deg);
-  }
-  to {
-    transform: rotate(345deg);
-  }
-}
-
 .header__square {
   height: 568px;
   width: 568px;
@@ -16,5 +6,4 @@
   right: 0;
   margin-top: 64px;
   order: 0;
-  animation: rotation 20s infinite linear;
 }

@@ -8,6 +8,7 @@
 @import url(../blocks/header/subtitle.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square/header__square.css);
+@import url(../blocks/rotation/rotation.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/two-columns/two-columns.css);
 @import url(../blocks/description/two-columns/__brief/two-columns__brief.css);
